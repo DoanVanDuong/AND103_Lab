@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pp="http://schemas.android.com/apk/res-auto"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="XE"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:textColor="@color/design_default_color_primary"
+    android:textStyle="italic|bold"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/khung3"
+        android:hint="Ten"
+        android:paddingLeft="10dp" />
+<EditText
+        android:id="@+id/edtNam"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/khung3"
+        android:hint="Nam"
+        android:paddingLeft="10dp"
+    android:layout_marginTop="20dp"/>
+<EditText
+        android:id="@+id/edtHang"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/khung3"
+        android:hint="Hang"
+        android:paddingLeft="10dp"
+    android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/khung3"
+        android:hint="Gia"
+        android:paddingLeft="10dp"
+    android:layout_marginTop="20dp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:orientation="horizontal"
+       android:gravity="center">
+   </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khung1"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:backgroundTint="@null"
+        android:text="SAVE"
+        android:id="@+id/btnSave"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>
